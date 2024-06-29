@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  background-image: linear-gradient(to bottom right, #27c2a8, #9964b2);
+  width: 30%;
+  margin: 100px auto;
+  padding: 40px 30px;
+  border-radius: 20px;
+}
+
+.search_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search_box [type="text"] {
+  outline: none;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  flex: 1;
+  margin-right: 10px;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+#btn {
+  border: none;
+  outline: none;
+  height: 50px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+#btn img {
+  height: 20px;
+  padding: 0 15px;
+}
+
+.error {
+  margin: 10px;
+  display: none;
+}
+
+#detail_box {
+  display: none;
+}
+
+.temp_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto 60px auto;
+}
+
+.temp_box img {
+  height: 150px;
+}
+
+.temp_box h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.temp_box h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.bottom_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.bottom_box img {
+  height: 35px;
+  display: block;
+}
+
+.humid_box,
+.wind_box {
+  display: flex;
+}
+
+#mini_box {
+  margin-left: 10px;
+}
+
+#mini_box h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#mini_box h4 {
+  font-weight: 300;
+  margin-top: 5px;
+}
